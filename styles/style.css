@@ -19,6 +19,18 @@ body{
     font-size: 13px;
     font-weight: 700;
 }
+.title{
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+.description{
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 32px;
+    text-align: center;
+}
 /* header styles */
 
 .header{
@@ -148,4 +160,31 @@ figcaption{
     color: rgba(39, 39, 39, 0.6);
     font-size: 16px;
     font-weight: 600;
+}
+/* sale banner styles */
+.sale-banner-container{
+    height: 415px;
+    max-width: 1280px;
+    padding: 67px 200px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.sale-banner{
+    display: flex;
+    height: 281px;
+}
+.sale-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.sale-banner-image{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.sale-banner-image img{
+    height: 281px;
+    width: 213px;
 }
