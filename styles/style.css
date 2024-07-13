@@ -202,3 +202,26 @@ figcaption{
     height: 265px;
     width: 230px;
 }
+/* deals section styles */
+.deals{
+    height: 300px;
+    width: 965px;
+    margin: 0 auto;
+    background-image: url(../images/latest-deals-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    height: 43px;
+    width: 469px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 11px;
+    margin-right: 10px;
+}
