@@ -54,16 +54,13 @@ body{
     margin-top: 33px;
     width: 483px;
 }
-/* main styles */
-main{
-    margin-bottom: 120px;
-}
 
 /* featired items section styles */
 .featured-items{
     height: 525px;   
     width: 965px;
     margin: 0 auto;
+    margin-bottom: 120px;
    
 }
 .content{
@@ -123,4 +120,32 @@ figcaption{
     text-align: center;
     text-decoration: underline;
     margin-top: 21px;
+}
+/* service section styles */
+.Service-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 215px;
+    width: 965px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 5px;
+}
+.Service-container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.Service-container div img{
+    height: 60px;
+    width: 60px;
+}
+.Service-container div h5{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 16px;
+    font-weight: 600;
 }
